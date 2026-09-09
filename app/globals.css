@@ -1285,16 +1285,11 @@ footer {
   position: absolute;
   inset: 0;
   background-image: url('/hero-logo.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  animation: heroZoom 20s ease-in-out infinite alternate;
-}
+  }
 
-@keyframes heroZoom {
-  from { transform: scale(1); }
-  to   { transform: scale(1.04); }
-}
 
 .hero-fade-bottom {
   position: absolute;
