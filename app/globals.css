@@ -1284,7 +1284,7 @@ footer {
 .hero-image-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/hero-logo.png');
+  background-image: url('/hero-logo.webp');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <div className="wrap footer-inner">
         <a href="#home" className="footer-logo" aria-label="MIJ Confidential — back to top">
-          <img src="/hero-logo.png" alt="MIJ Confidential" />
+          <img src="/hero-logo.webp" alt="MIJ Confidential" />
         </a>
         <p className="footer-copy">
           © 2026 MIJ Confidential. Hosted by Derek Rodgers.<br />

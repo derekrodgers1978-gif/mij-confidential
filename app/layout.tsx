@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     description: 'Japanese guitars. Real stories. No fluff.',
     siteName: 'MIJ Confidential',
     type: 'website',
-    images: [{ url: '/hero-logo.png', width: 1672, height: 941, alt: 'MIJ Confidential' }],
+    images: [{ url: '/hero-logo.webp', width: 1672, height: 941, alt: 'MIJ Confidential' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'MIJ Confidential',
     description: 'The definitive podcast on Made in Japan guitars.',
-    images: ['/hero-logo.png'],
+    images: ['/hero-logo.webp'],
   },
 }
 

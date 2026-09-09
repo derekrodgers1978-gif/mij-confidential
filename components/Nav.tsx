@@ -26,7 +26,7 @@ export default function Nav() {
       <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-inner">
           <Link href="/" className="nav-logo">
-            <img src="/hero-logo.png" alt="MIJ Confidential" />
+            <img src="/hero-logo.webp" alt="MIJ Confidential" />
           </Link>
 
           <ul className="nav-links">
