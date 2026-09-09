@@ -1486,7 +1486,7 @@ footer {
   .hero { min-height: 100svh; }
   .hero-image-bg { 
     background-size: contain;
-    background-position: center 30%;
+    background-position: center center;
   }
   .hero-image-content { bottom: 4rem; gap: 1rem; }
   .hero-actions { flex-direction: column; align-items: center; width: 100%; padding: 0 1.5rem; }
