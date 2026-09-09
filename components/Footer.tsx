@@ -2,7 +2,9 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrap footer-inner">
-        <div className="footer-logo">MIJ Confidential</div>
+        <a href="#home" className="footer-logo" aria-label="MIJ Confidential — back to top">
+          <img src="/hero-logo.png" alt="MIJ Confidential" />
+        </a>
         <p className="footer-copy">
           © 2026 MIJ Confidential. Hosted by Derek Rodgers.<br />
           <span style={{ opacity: 0.6 }}>The History, Mystery and Passion of Japanese Guitars</span>

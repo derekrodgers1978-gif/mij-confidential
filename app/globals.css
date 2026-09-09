@@ -235,21 +235,15 @@ section {
 }
 
 .nav-logo {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gold);
+  display: block;
+  width: 150px;
+  flex-shrink: 0;
 }
 
-.nav-logo span {
+.nav-logo img {
   display: block;
-  font-size: 0.45rem;
-  letter-spacing: 0.4em;
-  color: var(--white-muted);
-  font-weight: 400;
-  margin-top: 2px;
+  width: 100%;
+  height: auto;
 }
 
 .nav-links {
@@ -1248,12 +1242,15 @@ footer {
 }
 
 .footer-logo {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--gold);
+  display: block;
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.footer-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .footer-copy {
@@ -1483,7 +1480,7 @@ footer {
   .nav-links { display: none; }
   .nav-mobile-toggle { display: flex; }
   .nav-inner { padding: 1.25rem 1.25rem; }
-  .nav-logo { font-size: 0.85rem; }
+  .nav-logo { width: 130px; }
 
   /* Hero */
   .hero { min-height: 100svh; }
@@ -1553,7 +1550,7 @@ footer {
 
 @media (max-width: 480px) {
   /* Nav */
-  .nav-logo { font-size: 0.75rem; }
+  .nav-logo { width: 115px; }
 
   /* Hero */
   .hero-image-content { bottom: 3.5rem; }
