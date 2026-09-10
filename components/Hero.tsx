@@ -16,6 +16,7 @@ export default function Hero() {
           <a href="#book" className="btn btn-outline">Get the Book</a>
         </div>
 
+        {/* Theme player intentionally sits below the hero buttons */}
         <div
           style={{
             margin: '14px auto 0',
