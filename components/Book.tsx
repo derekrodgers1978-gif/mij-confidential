@@ -16,7 +16,7 @@ export default function Book() {
             <div className="book-cover-shadow" />
             <div className="book-cover">
               <img
-                src="/book-cover.png"
+                src="/book-cover.webp"
                 alt="MIJ Confidential by Derek Rodgers"
                 style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', background: 'var(--black)' }}
               />
