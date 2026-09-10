@@ -1,19 +1,11 @@
 const platforms = [
   {
-    name: 'Spotify',
-    label: 'Listen on',
-    sub: 'Free & Premium',
-    href: '#',
-    cls: 'spotify',
-    icon: '🎵',
-  },
-  {
-    name: 'Apple Podcasts',
-    label: 'Listen on',
-    sub: 'iOS & macOS',
-    href: '#',
-    cls: 'apple',
-    icon: '🎙',
+    name: 'Instagram',
+    label: 'Follow on',
+    sub: '@mijconfidential',
+    href: 'https://instagram.com/mijconfidential',
+    cls: 'instagram',
+    icon: '◎',
   },
   {
     name: 'YouTube',
@@ -30,10 +22,10 @@ export default function Listen() {
     <section id="listen" className="podcast-bg">
       <div className="wrap">
         <div className="section-header">
-          <span className="eyebrow">Where to Listen</span>
+          <span className="eyebrow">Where to Follow</span>
           <div className="gold-rule" />
           <h2 className="display-section">Subscribe & Follow</h2>
-          <p>Available on every major platform. Never miss a drop.</p>
+          <p>Follow MIJ Confidential and never miss a drop.</p>
         </div>
 
         <div className="podcast-platforms">
@@ -42,7 +34,7 @@ export default function Listen() {
               key={p.name}
               href={p.href}
               className="glass-card platform-card"
-              target={p.href !== '#' ? '_blank' : undefined}
+              target="_blank"
               rel="noopener noreferrer"
             >
               <div className={`platform-icon ${p.cls}`}>
@@ -57,7 +49,6 @@ export default function Listen() {
           ))}
         </div>
 
-        {/* Spotify embed placeholder — replace src with your actual show URL */}
         <div className="glass-card" style={{ padding: '2rem', borderRadius: 0 }}>
           <p className="eyebrow" style={{ marginBottom: '1rem' }}>Latest Episode</p>
           <div style={{
@@ -78,7 +69,7 @@ export default function Listen() {
               justifyContent: 'center',
               flexShrink: 0,
               fontSize: '1.5rem',
-            }}>🎙</div>
+            }}>▶</div>
             <div>
               <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 600, letterSpacing: '0.04em', marginBottom: '0.25rem' }}>
                 MIJ Confidential
