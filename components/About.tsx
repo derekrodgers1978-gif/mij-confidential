@@ -14,12 +14,12 @@ export default function About() {
     <section id="about" className="about-bg">
       <div className="wrap">
         <div className="about-layout">
-          <div className="about-image-wrap">
-            <div className="about-image" style={{ aspectRatio: '4 / 5' }}>
+          <div className="about-image-wrap" style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className="about-image" style={{ aspectRatio: '3 / 4', width: '100%', maxWidth: '300px' }}>
               <img
-                src="/host-photo.webp"
+                src="/host-photo.jpg"
                 alt="Derek Rodgers, host and author of MIJ Confidential"
-                style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }}
+                style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center top' }}
               />
               <div className="about-image-label">
                 <strong>Derek Rodgers</strong>
