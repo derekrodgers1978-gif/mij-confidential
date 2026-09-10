@@ -9,7 +9,7 @@ export default function Hero() {
 
       {/* CTA overlay at bottom */}
       <div className="hero-image-content">
-        <p className="hero-tagline">The History, Mystery and Passion of Japanese Guitars</p>
+        <p className="hero-tagline">The history, the mystery and the passion of Japanese guitars</p>
         <div className="hero-actions">
           <a href="#listen" className="btn btn-gold">Start Listening</a>
           <a href="#book" className="btn btn-outline">Get the Book</a>
