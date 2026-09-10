@@ -1,6 +1,3 @@
-import fs from 'fs'
-import path from 'path'
-
 const topics = [
   'Rare Japanese guitar showcases',
   'Vintage catalog breakdowns',
@@ -12,11 +9,6 @@ const topics = [
   'Behind-the-scenes book updates',
 ]
 
-const hostPhotoBase64 = fs
-  .readFileSync(path.join(process.cwd(), 'public', 'host-photo-q90.txt'), 'utf8')
-  .trim()
-const hostPhoto = `data:image/webp;base64,${hostPhotoBase64}`
-
 export default function About() {
   return (
     <section id="about" className="about-bg">
@@ -25,7 +17,7 @@ export default function About() {
           <div className="about-image-wrap">
             <div className="about-image" style={{ aspectRatio: '4 / 5' }}>
               <img
-                src={hostPhoto}
+                src="/host-photo.webp"
                 alt="Derek Rodgers, host and author of MIJ Confidential"
                 style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', objectPosition: 'center center' }}
               />
