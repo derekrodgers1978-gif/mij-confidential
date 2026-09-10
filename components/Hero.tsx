@@ -11,26 +11,30 @@ export default function Hero() {
       <div className="hero-image-content">
         <p className="hero-tagline">The history, the mystery and the passion of Japanese guitars</p>
 
+        <div className="hero-actions">
+          <a href="#listen" className="btn btn-gold">Start Listening</a>
+          <a href="#book" className="btn btn-outline">Get the Book</a>
+        </div>
+
         <div
           style={{
-            margin: '18px auto 20px',
-            width: 'min(100%, 420px)',
-            padding: '12px 14px',
-            border: '1px solid rgba(196, 158, 77, 0.55)',
-            borderRadius: '10px',
-            background: 'rgba(0, 0, 0, 0.58)',
-            backdropFilter: 'blur(7px)',
-            WebkitBackdropFilter: 'blur(7px)',
-            boxShadow: '0 10px 30px rgba(0, 0, 0, 0.28)',
+            margin: '14px auto 0',
+            width: 'min(100%, 300px)',
+            padding: '8px 10px',
+            border: '1px solid rgba(196, 158, 77, 0.45)',
+            borderRadius: '8px',
+            background: 'rgba(0, 0, 0, 0.5)',
+            backdropFilter: 'blur(6px)',
+            WebkitBackdropFilter: 'blur(6px)',
           }}
         >
           <div
             style={{
-              marginBottom: '8px',
+              marginBottom: '5px',
               color: '#d3af61',
-              fontSize: '11px',
+              fontSize: '9px',
               fontWeight: 700,
-              letterSpacing: '0.16em',
+              letterSpacing: '0.14em',
               textTransform: 'uppercase',
               textAlign: 'center',
             }}
@@ -42,15 +46,10 @@ export default function Hero() {
             preload="metadata"
             src="/mij-confidential-theme.mp3"
             aria-label="Play the MIJ Confidential theme music"
-            style={{ width: '100%', height: '34px', display: 'block' }}
+            style={{ width: '100%', height: '30px', display: 'block' }}
           >
             Your browser does not support audio playback.
           </audio>
-        </div>
-
-        <div className="hero-actions">
-          <a href="#listen" className="btn btn-gold">Start Listening</a>
-          <a href="#book" className="btn btn-outline">Get the Book</a>
         </div>
       </div>
 
