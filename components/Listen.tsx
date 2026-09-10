@@ -10,8 +10,8 @@ const platforms = [
   {
     name: 'YouTube',
     label: 'Watch on',
-    sub: '@Tsunami_Guitars',
-    href: 'https://youtube.com/@Tsunami_Guitars',
+    sub: '@confidentialmij',
+    href: 'https://youtube.com/@confidentialmij',
     cls: 'youtube',
     icon: '▶',
   },
@@ -79,7 +79,7 @@ export default function Listen() {
               </p>
             </div>
             <div style={{ marginLeft: 'auto', flexShrink: 0 }}>
-              <a href="#subscribe" className="btn btn-gold" style={{ fontSize: '0.6rem', padding: '0.7rem 1.5rem' }}>
+              <a href="https://youtube.com/@confidentialmij" target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ fontSize: '0.6rem', padding: '0.7rem 1.5rem' }}>
                 Subscribe
               </a>
             </div>
