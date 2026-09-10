@@ -16,10 +16,16 @@ export default function About() {
         <div className="about-layout">
           <div className="about-image-wrap">
             <div className="about-image">
-              <div className="about-image-placeholder">
-                <span style={{ fontSize: '3rem' }}>🎸</span>
-                <span>Host Photo</span>
-              </div>
+              <img
+                src="/host-photo.png"
+                alt="Derek Rodgers, host and author of MIJ Confidential"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  display: 'block',
+                  objectFit: 'contain',
+                }}
+              />
               <div className="about-image-label">
                 <strong>Derek Rodgers</strong>
                 <span>Host & Author</span>
