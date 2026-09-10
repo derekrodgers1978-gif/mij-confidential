@@ -12,7 +12,14 @@ export default function Book() {
     <section id="book" className="book-bg">
       <div className="wrap">
         <div className="book-layout">
-          <div className="book-cover-wrap">
+          <div
+            className="book-cover-wrap"
+            style={{
+              width: '100%',
+              maxWidth: '700px',
+              justifySelf: 'center',
+            }}
+          >
             <div className="book-cover-shadow" />
             <div
               className="book-cover"
@@ -24,6 +31,7 @@ export default function Book() {
                 aspectRatio: 'auto',
                 overflow: 'visible',
                 padding: 0,
+                width: '100%',
               }}
             >
               <img
@@ -35,6 +43,8 @@ export default function Book() {
                   maxHeight: 'none',
                   objectFit: 'contain',
                   display: 'block',
+                  transform: 'scale(1.35)',
+                  transformOrigin: 'center',
                 }}
               />
             </div>
