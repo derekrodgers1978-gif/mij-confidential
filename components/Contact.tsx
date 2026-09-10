@@ -1,9 +1,7 @@
 const contactLinks = [
   { label: 'Email', value: 'hello@mijconfidential.com', href: 'mailto:hello@mijconfidential.com' },
-  { label: 'YouTube', value: '@Tsunami_Guitars', href: 'https://youtube.com/@Tsunami_Guitars' },
-  { label: 'Instagram', value: '@tsunamiguitars', href: 'https://instagram.com/tsunamiguitars' },
-  { label: 'Apple Podcasts', value: 'MIJ Confidential', href: '#' },
-  { label: 'Spotify', value: 'MIJ Confidential', href: '#' },
+  { label: 'YouTube', value: '@confidentialmij', href: 'https://youtube.com/@confidentialmij' },
+  { label: 'Instagram', value: '@mijconfidential', href: 'https://instagram.com/mijconfidential' },
 ]
 
 export default function Contact() {
