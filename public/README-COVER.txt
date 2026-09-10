@@ -1,1 +1,0 @@
-MIJ Confidential cover asset is stored separately.
