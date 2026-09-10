@@ -28,7 +28,7 @@ export default function Book() {
             <div className="gold-rule" />
             <h2 className="display-section">MIJ Confidential</h2>
             <p className="body-lg">
-              The history, the art, the passion and the secrets of Japan's greatest guitars.
+              The history, the mystery and the passion of Japanese guitars.
               From the factories of the 1970s to the premium boutique makers of today —
               this is the book the collector world has been waiting for.
             </p>
