@@ -7,7 +7,7 @@ export default function Footer() {
         </a>
         <p className="footer-copy">
           © 2026 MIJ Confidential. Hosted by Derek Rodgers.<br />
-          <span style={{ opacity: 0.6 }}>The History, Mystery and Passion of Japanese Guitars</span>
+          <span style={{ opacity: 0.6 }}>The history, the mystery and the passion of Japanese guitars</span>
         </p>
         <nav className="footer-links">
           <a href="#episodes">Episodes</a>
