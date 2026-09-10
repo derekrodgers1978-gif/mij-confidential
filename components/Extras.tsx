@@ -1,6 +1,6 @@
 const stats = [
-  { value: '100+', label: 'Guitars Owned' },
-  { value: '3', label: 'Decades Collecting' },
+  { value: '600+', label: 'Guitars Owned' },
+  { value: '<10', label: 'Years Collecting' },
   { value: '20+', label: 'Brands Covered' },
   { value: '1', label: 'Definitive Book' },
 ]
