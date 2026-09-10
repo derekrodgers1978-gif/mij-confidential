@@ -1,32 +1,38 @@
 export default function Hero() {
   return (
-    <section className="hero hero-image" id="home">
-      {/* Full-screen logo background */}
-      <div className="hero-image-bg" />
+    <>
+      <section className="hero hero-image" id="home">
+        {/* Logo gets the hero area to itself */}
+        <div className="hero-image-bg" />
+        <div className="hero-fade-bottom" />
+      </section>
 
-      {/* Bottom vignette fade into next section */}
-      <div className="hero-fade-bottom" />
+      {/* All controls sit below the logo */}
+      <section
+        aria-label="MIJ Confidential actions"
+        style={{
+          padding: '30px 20px 42px',
+          background: '#080808',
+          textAlign: 'center',
+        }}
+      >
+        <p className="hero-tagline" style={{ margin: '0 auto 20px' }}>
+          The history, the mystery and the passion of Japanese guitars
+        </p>
 
-      {/* CTA overlay at bottom */}
-      <div className="hero-image-content">
-        <p className="hero-tagline">The history, the mystery and the passion of Japanese guitars</p>
-
-        <div className="hero-actions">
+        <div className="hero-actions" style={{ justifyContent: 'center', marginBottom: '16px' }}>
           <a href="#listen" className="btn btn-gold">Start Listening</a>
           <a href="#book" className="btn btn-outline">Get the Book</a>
         </div>
 
-        {/* Theme player intentionally sits below the hero buttons */}
         <div
           style={{
-            margin: '14px auto 0',
+            margin: '0 auto',
             width: 'min(100%, 300px)',
             padding: '8px 10px',
             border: '1px solid rgba(196, 158, 77, 0.45)',
             borderRadius: '8px',
             background: 'rgba(0, 0, 0, 0.5)',
-            backdropFilter: 'blur(6px)',
-            WebkitBackdropFilter: 'blur(6px)',
           }}
         >
           <div
@@ -52,12 +58,7 @@ export default function Hero() {
             Your browser does not support audio playback.
           </audio>
         </div>
-      </div>
-
-      <div className="hero-scroll">
-        <span>Scroll</span>
-        <div className="scroll-line" />
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
