@@ -6,7 +6,7 @@ import Newsletter from '../../components/Newsletter'
 
 export const metadata: Metadata = {
   title: 'MIJ Confidential — The Book',
-  description: 'A personal, funny and honest journey through Japanese guitars, collecting, dealing and the stories behind more than 600 instruments.',
+  description: 'A personal, honest and entertaining journey into the history, mystery and passion of Japanese guitars.',
 }
 
 export default function BookPage() {
