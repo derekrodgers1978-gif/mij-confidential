@@ -6,7 +6,7 @@ import Newsletter from '../../components/Newsletter'
 
 export const metadata: Metadata = {
   title: 'MIJ Confidential — The Book',
-  description: 'The definitive collector\'s guide to Made in Japan guitars by Derek Rodgers. ESP, Navigator, Tokai, Greco, Burny and more.',
+  description: 'A personal, funny and honest journey through Japanese guitars, collecting, dealing and the stories behind more than 600 instruments.',
 }
 
 export default function BookPage() {
