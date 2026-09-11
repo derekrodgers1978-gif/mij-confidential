@@ -1,10 +1,8 @@
 const bookFeatures = [
-  'The hunt — great finds, bad decisions and the guitars that got away',
-  'Navigators, Burnys, Tokais, Grecos and the instruments that started the obsession',
-  'Collectors, dealers, lowballers and the characters surrounding the guitar world',
-  'True stories including the Cat Piss SG, the Purple Burny and a five-hour blizzard drive',
-  'Japan, Ochanomizu and what years of buying and selling taught me',
-  'A brutally honest confession from a guitar addict who can barely play',
+  'A personal journey through the world of Japanese guitars',
+  'Stories of collecting, discovery and obsession',
+  'Honest reflections on the people and experiences along the way',
+  'Written for collectors, players and anyone drawn to uncommon instruments',
 ]
 
 export default function Book() {
@@ -55,12 +53,11 @@ export default function Book() {
             <div className="gold-rule" />
             <h2 className="display-section">MIJ Confidential</h2>
             <p className="body-lg">
-              MIJ Confidential is not a price guide, catalogue or factory encyclopedia.
-              It is my personal journey through the history, mystery and passion of
-              Japanese guitars — told through the instruments I chased, bought, sold,
-              loved and occasionally regretted. Part memoir, part guitar obsession,
-              and full of the collectors, dealers, lowballers and stories encountered
-              along the way.
+              MIJ Confidential is a personal journey into the history, mystery and
+              passion of Japanese guitars. Part memoir, part road story and part
+              confession, it explores how a simple interest became a lifelong
+              obsession. Honest, funny and written from inside the chase, it is a
+              book about far more than guitars.
             </p>
 
             <div className="book-features">
