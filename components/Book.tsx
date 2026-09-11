@@ -1,10 +1,10 @@
 const bookFeatures = [
-  'The complete history of ESP, Navigator, and the Custom Shop lineage',
-  'Factory breakdowns — Fujigen, Tokai, Greco, Burny and the Lawsuit Era',
-  'Rare catalog documentation and decade-by-decade collector\'s guide',
-  'Identification, authentication, and valuation frameworks',
-  'Collector interviews and the stories behind legendary pieces',
-  'The modern MIJ revival and what\'s undervalued right now',
+  'The hunt — great finds, bad decisions and the guitars that got away',
+  'Navigators, Burnys, Tokais, Grecos and the instruments that started the obsession',
+  'Collectors, dealers, lowballers and the characters surrounding the guitar world',
+  'True stories including the Cat Piss SG, the Purple Burny and a five-hour blizzard drive',
+  'Japan, Ochanomizu and what years of buying and selling taught me',
+  'A brutally honest confession from a guitar addict who can barely play',
 ]
 
 export default function Book() {
@@ -55,9 +55,12 @@ export default function Book() {
             <div className="gold-rule" />
             <h2 className="display-section">MIJ Confidential</h2>
             <p className="body-lg">
-              The history, the mystery and the passion of Japanese guitars.
-              From the factories of the 1970s to the premium boutique makers of today —
-              this is the book the collector world has been waiting for.
+              MIJ Confidential is not a price guide, catalogue or factory encyclopedia.
+              It is my personal journey through the history, mystery and passion of
+              Japanese guitars — told through the instruments I chased, bought, sold,
+              loved and occasionally regretted. Part memoir, part guitar obsession,
+              and full of the collectors, dealers, lowballers and stories encountered
+              along the way.
             </p>
 
             <div className="book-features">
